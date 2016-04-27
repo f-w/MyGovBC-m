@@ -1,7 +1,7 @@
 {
-  "name": "mybcgov",
+  "name": "mybcgov-m",
   "version": "1.1.1",
-  "description": "myBCGov: An Ionic project",
+  "description": "myBCGov-m: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
@@ -22,5 +22,8 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "ios",
+    "android"
+  ]
 }
