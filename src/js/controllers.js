@@ -1,4 +1,4 @@
-angular.module('app.controllers', [])
+export default angular.module('app.controllers', [])
 
 .controller('homeCtrl', function($scope, $cordovaBarcodeScanner) {
 

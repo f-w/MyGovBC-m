@@ -9,3 +9,4 @@ src/lib/
 resources/
 dist/
 config/manifest.json
+npm-debug.log

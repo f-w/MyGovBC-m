@@ -1,4 +1,4 @@
-angular.module('app.routes', [])
+export default angular.module('app.routes', [])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
