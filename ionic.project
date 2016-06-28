@@ -1,4 +1,5 @@
 {
   "name": "myBCGov-m",
-  "app_id": "89b3bad4"
+  "app_id": "89b3bad4",
+  "documentRoot": "dist"
 }

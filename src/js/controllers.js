@@ -1,6 +1,7 @@
 angular.module('app.controllers', [])
 
 .controller('homeCtrl', function($scope, $cordovaBarcodeScanner) {
+
   $scope.scan = function(){
     document.addEventListener("deviceready", function () {
       $cordovaBarcodeScanner
