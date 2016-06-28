@@ -10,7 +10,7 @@ module.exports = function(_path) {
       filename: '[name].[chunkhash].js'
     },
     plugins: [
-      new CleanWebpackPlugin(['dist'], {
+      new CleanWebpackPlugin(['www'], {
         root: _path,
         verbose: true,
         dry: false

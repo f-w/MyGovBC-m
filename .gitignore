@@ -7,6 +7,6 @@ plugins/
 src/lib/
 .idea/
 resources/
-dist/
+www/
 config/manifest.json
 npm-debug.log

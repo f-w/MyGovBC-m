@@ -26,7 +26,7 @@ module.exports = function (_path) {
 
     // output system
     output: {
-      path: require("path").resolve("dist"),
+      path: require("path").resolve("www"),
       filename: '[name].js',
     },
 
@@ -152,7 +152,7 @@ module.exports = function (_path) {
     ],
     devServer: {
       publicPath: '/',
-      contentBase: './dist',
+      contentBase: './www',
       info: true,
       hot: true,
       inline: true,
