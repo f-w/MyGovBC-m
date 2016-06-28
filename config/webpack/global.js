@@ -19,6 +19,7 @@ module.exports = function (_path) {
   var webpackConfig = {
     // entry points
     entry: {
+      vendor: _path + '/src/js/index.vendor.js',
       app: [_path + '/src/js/app.js'],
       polyfill: 'babel-polyfill'
     },
