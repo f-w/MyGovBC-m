@@ -9,7 +9,7 @@ export default angular.module('app.controllers', [])
           .then(function (barcodeData) {
             // Success! Barcode data is here
             alert(barcodeData.text)
-            let res = $resource('http://auth.api.dev.cos.citz.gov.bc.ca/api/authentication')
+            let res = $resource('https://iauth-mygov.apps.gov.bc.ca/api/authentication')
             res.save({
               "name": "Sam",
               "headers": {"sm_user": "Sam"},
